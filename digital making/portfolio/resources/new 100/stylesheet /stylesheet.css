@@ -1,0 +1,117 @@
+/* Kirsten Fasanello CS 312 Final Project Stylesheet */
+* {
+   box-sizing: border-box;
+    font-family: verdana;
+  }
+  body {
+    margin: 0;
+  }
+  #main {
+    display: flex;
+    min-height: calc(100vh - 40vh);
+  }
+  #main > article {
+    flex: 1;
+      background-color: #edecea;
+      border: 3px solid #919191 ;
+  }
+  #main > nav, 
+  #main > aside {
+    flex: 0 0 20vw;
+    background: #edecea;
+      border: 3px solid #919191 ;
+  }
+  #main > nav {
+    order: -1;
+  }
+  header, footer, article, nav, aside {
+    padding: 1em;
+  }
+  header, footer {
+    background: #124666;
+    height: 20vh;
+  }
+header {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    }
+#yetipic {
+    display: block;
+    margin: auto;
+    width: 600px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li a {
+    display: block;
+    width: 190px;
+    padding: 70px;
+    border: 2px solid #919191;
+    margin: auto;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+li a:hover {
+    background-color: #fffab6;
+    }
+li a:active {
+    color: #f74f4f;
+}
+li a:visited {
+    color: #a2b7cd;
+}
+h1 {
+    text-align: center;
+    color: #919191;
+    font-size: 40px;
+}
+p {
+    text-align: center;
+    word-wrap: break-word;
+    color: #919191;
+    font-size: 20px;
+}
+ol {
+    list-style-type: none;
+}
+#yeti5 {
+    transform: rotate(90deg);
+    padding-right: 10px;
+}
+#yeti4 {
+    transform: rotate(180deg);
+}
+h2 {
+    text-align: center;
+    color: #a2b7cd;
+}
+span {
+    color: #f74f4f;
+}
+dl {
+    color: #002f4f;
+    font-size: 20px;
+}
+#pics {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    max-height: 100vh;
+    justify-content: center;
+}
+#pics img {
+    margin: 10px;
+    border: 3px solid #000;
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
+    max-width: 23vw;
+}
+video {
+    padding-left: 10px;
+    margin-left: 20px;
+}
